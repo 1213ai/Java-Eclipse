@@ -11,7 +11,7 @@ public class BmiCalc {
 		weight = 62;
 		height = 171;
 		
-		height /= 100;
+	    height /= 100;
 		//height = height / 100; の省略することが出来る！ 		
 		
 		bmi = weight / (height * height);
