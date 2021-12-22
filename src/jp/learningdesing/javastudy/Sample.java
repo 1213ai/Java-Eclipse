@@ -16,7 +16,9 @@ public class Sample {
 	public static void main(String[] args) {
 		// 単一行で使用するコメント
 		//↓次の行で、コンソールに文字列を出力します。
-		System.out.println("こんにちは、エクリプス！");
+		System.out.println("Hello Eclipse!\nIt's Tuesday today!.\n今日は火曜日です。");
+		//\nは改行したり出来る		
+		
 	}
 
 }
