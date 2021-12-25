@@ -1,10 +1,8 @@
-//キーボードから入力処理を追加する！
-
 package jp.learningdesing.javastudy;
 
 import java.util.Scanner;
 
-public class BmiCalc2 {
+public class BmiCalcif2 {
 /* BMI　（体格指数）を計算するプログラム
  * BMI ＝　体重 /　（身長　*　身長）
  * 体重　kg　身長　m
@@ -26,14 +24,14 @@ public class BmiCalc2 {
 		
 		bmi = weight / (height * height);
 		
-		System.out.println("BMI :" + bmi + "です。");
+		System.out.println("あなたのBMIは　" + bmi + "です");
 		
 		if (bmi < 18.5) {
-			System.out.println("やせ型です。");
+			System.out.println("やせ型です");
 		} else if (bmi < 25) {
-			System.out.println("標準です。");
+			System.out.println("標準です");
 		} else {
-			System.out.println("肥満です。");
+			System.out.println("肥満です");
 		}
 		
 	}
